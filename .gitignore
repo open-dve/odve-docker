@@ -1,0 +1,12 @@
+# built archives go to GitHub Releases, not into the repository
+*.tar.gz
+*.tar.gz.sha256
+
+# local secrets and credentials - never commit
+.secrets/
+.env
+.env.*
+*.token
+*_token
+git-credentials
+.git-credentials
